@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+body{
+    background-color: gray;
+    height: 100vh;
+}
+.center{
+    text-align: center;
+    margin-top: 30px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#taskname{
+    width: 40%;
+    background-color: gainsboro;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+#taskname::placeholder{
+    color: black;
+}
+#addtask{
+    padding-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(246, 140, 140);
+    background-color: gray;
+    border:none;
+}
+#addtask:hover{
+    opacity: 0.8;
+}
+ input, button{
+     appearance: none;
+     border: none;
+     background: none;
+     outline: none;
+     cursor: pointer;
+ }
+ .task-list{
+     padding: 1rem;
+    width: 100%;
+ }
+ #tasks{
+     margin-top: 15px;
+ }
+ #ctask{
+     margin-top: 15px;
+ }
+ .task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    background-color: gainsboro;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+ }
+  .edit {
+     color: rgb(240, 8, 143);
+     padding-right: 10px;
+     font-size: 15px;
+ }
+  .delete {
+     color: rgb(231, 2, 2);
+     padding-right: 10px;
+     font-size: 15px;
+ }
+ .done{
+    color: rgb(240, 8, 143);
+    padding-right: 10px;
+    font-size: 15px;
+ }

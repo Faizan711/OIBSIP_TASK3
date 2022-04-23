@@ -1,0 +1,16 @@
+@media(max-width:1030px){
+    #taskname{
+        width: 60%;
+    }
+    .task{
+        width: 85%;
+    }
+}
+@media(max-width:450px){
+    #navbar{
+        flex-direction: column;
+    }
+    #addtask{
+        margin-top: 10px;
+    }
+}
